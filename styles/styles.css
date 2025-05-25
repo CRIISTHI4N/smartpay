@@ -11,3 +11,24 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.contacto {
+    background-image: url("/images/contact.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sobre_nosotros {
+    background-image: url("/images/sobre_nosotros.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.afiliacion {
+    background-image: url("/images/afiliacion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
