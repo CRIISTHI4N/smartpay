@@ -1,0 +1,13 @@
+.bienvenida {
+    background-image: url("/images/fondo_pricipal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_dos {
+    background-image: url("/images/banner_dos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
