@@ -41,12 +41,14 @@ export default function NavBar() {
 
             <div className="w-full flex justify-between items-center">
                 <div className='flex items-center gap-2'>
-                    <Image
-                        width={50}
-                        height={50}
-                        src="/images/logo.webp"
-                        alt="logo"
-                    />
+                    <Link href="/">
+                        <Image
+                            width={50}
+                            height={50}
+                            src="/images/logo.webp"
+                            alt="logo"
+                        />
+                    </Link>
 
                     <p className='font-bold text-md lg:text-xl'>Smart Pay</p>
                 </div>

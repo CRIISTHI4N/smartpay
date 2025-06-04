@@ -25,17 +25,20 @@ export default function SobreNosotros() {
 
                     </h2>
 
-
                     <p className='text-gray-100 mt-5 mr-[10%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                        Somos una empresa Ecuatoriana fundada en 2022, inmediatamente depués de la pandemia, con el objetivo de brindar soluciones financieras accesibles para que más personas puedan acceder a tecnologías y servicios digitales.
                     </p>
-
                     <p className='text-gray-100 mt-5 mr-[10%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                        Nuestro principal compromiso es impulsar la inclusión financiera a través de herramientas inovadoras y modelos de financiemanto flexibles.
                     </p>
-
                     <p className='text-gray-100 mt-5 mr-[10%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                        Nacimos de la necesidad de ofrecer alternativas de pago que se ajusten a la realidad de cada cliente, especialmente para los que no cuentan con un historial crediticio sólido o con facilidades bancarias tradicionales.
+                    </p>
+                    <p className='text-gray-100 mt-5 mr-[10%]'>
+                        A través de nuestro sistema de financiamiento, buscamos que todos, sin importar su nivel socioeconómico, tengan la oportunida de adquirir teléfonos inteligentes y otros dispositivos que les permitan mantenerse conectados con el mundo y aprovechar las oportunidades de la era digital.
+                    </p>
+                    <p className='text-gray-100 mt-5 mr-[10%]'>
+                        Creemos en el poder de la tecnología para transformar vidas y reducir brechas. Por ello, seguimos inovando y expandiendo nuestro portafolio de soluciones digitales, siempre enfocados en la satisfacción de nuestros clientes y el desarrollo sostenible de nuestras comunidades.
                     </p>
                 </div>
             </section>

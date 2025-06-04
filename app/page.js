@@ -1,6 +1,7 @@
 import MainLayout from '@/components/MainLayout'
 import Image from 'next/image'
 import "../styles/styles.css"
+import BrandCarousel from '../components/BrandCarousel'
 
 export default function Home() {
   return (
@@ -19,16 +20,20 @@ export default function Home() {
 
 
         <div className='flex items-center gap-2'>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
+          <a href="https://www.facebook.com/people/LOCK-PLAY/61574944767558/" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-brand-facebook skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" /></svg>
           </a>
 
-          <a href="#" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
+          <a href="https://www.tiktok.com/@homeplaycredito" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-brand-tiktok skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M16.083 2h-4.083a1 1 0 0 0 -1 1v11.5a1.5 1.5 0 1 1 -2.519 -1.1l.12 -.1a1 1 0 0 0 .399 -.8v-4.326a1 1 0 0 0 -1.23 -.974a7.5 7.5 0 0 0 1.73 14.8l.243 -.005a7.5 7.5 0 0 0 7.257 -7.495v-2.7l.311 .153c1.122 .53 2.333 .868 3.59 .993a1 1 0 0 0 1.099 -.996v-4.033a1 1 0 0 0 -.834 -.986a5.005 5.005 0 0 1 -4.097 -4.096a1 1 0 0 0 -.986 -.835z" /></svg>
           </a>
 
-          <a href="#" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
+          <a href="https://api.whatsapp.com/send?phone=593997518833&text=Hola%F0%9F%91%8B%20%2C%20deseo%20realizar%20un%20precredito%20para%20saber%20si%20puedo%20accerder%20a%20un%20cr%C3%A9dito.%20este%20es%20mi%20numero%20de%20c%C3%A9dula" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-brand-whatsapp skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18.497 4.409a10 10 0 0 1 -10.36 16.828l-.223 -.098l-4.759 .849l-.11 .011a1 1 0 0 1 -.11 0l-.102 -.013l-.108 -.024l-.105 -.037l-.099 -.047l-.093 -.058l-.014 -.011l-.012 -.007l-.086 -.073l-.077 -.08l-.067 -.088l-.056 -.094l-.034 -.07l-.04 -.108l-.028 -.128l-.012 -.102a1 1 0 0 1 0 -.125l.012 -.1l.024 -.11l.045 -.122l1.433 -3.304l-.009 -.014a10 10 0 0 1 1.549 -12.454l.215 -.203a10 10 0 0 1 13.226 -.217m-8.997 3.09a1.5 1.5 0 0 0 -1.5 1.5v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0 -3h-1l-.144 .007a1.5 1.5 0 0 0 -1.128 .697l-.042 .074l-.022 -.007a4.01 4.01 0 0 1 -2.435 -2.435l-.008 -.023l.075 -.041a1.5 1.5 0 0 0 .704 -1.272v-1a1.5 1.5 0 0 0 -1.5 -1.5" /></svg>
+          </a>
+
+          <a href="https://www.instagram.com/somospayplay/" target="_blank" rel="noopener noreferrer" className='p-1 hover:bg-[#e66505] transition-colors -skew-x-12'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-brand-instagram skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M16 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-8a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-4 5a4 4 0 0 0 -3.995 3.8l-.005 .2a4 4 0 1 0 4 -4m4.5 -1.5a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /></svg>
           </a>
         </div>
 
@@ -37,7 +42,7 @@ export default function Home() {
       <MainLayout>
         <section className="w-full h-screen bienvenida relative bg-gray-800">
 
-          <div className="absolute top-[15%] left-[9%] right-[9%] lg:top-[29%]">
+          <div className="absolute top-[50%] -translate-y-[50%] left-[9%] right-[9%] md:top-[15%] md:-translate-y-0 lg:top-[29%]">
             <p className="text-xl text-[#e66505] font-bold  lg:text-xl ">Tu mejor opción para</p>
             <p
               className="text-3xl text-gray-100 font-bold  lg:text-5xl">
@@ -47,8 +52,7 @@ export default function Home() {
             <p className='mt-10'>
               Ofrece una plataforma avanzada para la gestión centralizada de
             </p>
-            <p>Andorid TV, garantizando seguridad, eficiencia y actualizaciones</p>
-            <p>automáticas</p>
+            <p>Android TV, garantizando seguridad, eficiencia y actualizaciones</p>
 
             <div className='mt-5 flex items-center gap-1'>
               <a
@@ -64,7 +68,10 @@ export default function Home() {
 
           </div>
 
-          <div className="absolute w-[300px] left-[50%] -translate-x-[50%] top-[63%] md:w-[350px] md:top-[55%] lg:top-[35%] lg:left-[55%] lg:translate-x-0 lg:w-[400px] xl:top-[50%] xl:-translate-y-[50%] xl:w-[500px] z-10">
+          {/* <div className="absolute hidden w-[300px] left-[50%] md:block -translate-x-[50%] top-[63%] md:w-[350px] md:top-[55%] lg:top-
+          [35%] lg:left-[55%] lg:translate-x-0 lg:w-[400px] xl:top-[50%] xl:-translate-y-[50%] xl:w-[500px] z-10"></div> */}
+
+          <div className="absolute hidden w-[300px] left-[50%] md:block -translate-x-[50%] top-[63%] md:w-[350px] md:top-[55%] lg:top-[35%] lg:left-[55%] lg:translate-x-0 lg:w-[400px] xl:top-[50%] xl:-translate-y-[50%] xl:w-[500px] z-10 fade-in-slide">
             <Image
               src="/images/tv2.png"
               alt="logo"
@@ -88,7 +95,7 @@ export default function Home() {
             <div className='flex flex-col gap-2'>
               <h2 className='text-[#e66505] font-semibold text-xl'>Configuración sin complicaciones</h2>
 
-              <p>Registre y configure televisores Google TV en minutos. Sin configuraciones complejas, sin sobrecarga de TI.</p>
+              <p>Registra y configura televisores Google TV en minutos. Sin configuraciones complejas, ni procesos tediosos.</p>
             </div>
 
           </article>
@@ -103,7 +110,7 @@ export default function Home() {
             <div className='flex flex-col gap-2'>
               <h2 className='text-[#e66505] font-semibold text-xl'>Gestión centralizada</h2>
 
-              <p>Controle cada pantalla desde un panel único e intuitivo.</p>
+              <p>Controla cada acción desde un panel único e intuitivo.</p>
             </div>
 
           </article>
@@ -119,7 +126,7 @@ export default function Home() {
             <div className='flex flex-col gap-2'>
               <h2 className='text-[#e66505] font-semibold text-xl'>Siempre actualizado</h2>
 
-              <p>Automatice las actualizaciones de firmware y aplicaciones para que los televisores funcionen sin problemas.</p>
+              <p>Nuestra plataforma evoluciona constantemente para brindarte una experiencia más segura, eficiente y confiable.</p>
             </div>
 
           </article>
@@ -134,7 +141,7 @@ export default function Home() {
             <div className='flex flex-col gap-2'>
               <h2 className='text-[#e66505] font-semibold text-xl'>La seguridad primero</h2>
 
-              <p>Bloquee el acceso no autorizado, restrinja aplicaciones y controle el estado en tiempo real.</p>
+              <p>Bloquea el acceso no autorizado y controla el estado de cada dispositivos en tiempo real.</p>
             </div>
 
           </article>
@@ -144,8 +151,8 @@ export default function Home() {
         <section className='w-full h-72 bg-[#131114] banner_dos flex items-center justify-center'>
           <div className='flex flex-col gap-7 lg:flex-row items-center justify-between w-[80%] m-auto'>
             <div>
-              <p className='font-bold text-xl lg:text-3xl'>Administra tus televisores <br /> Android con confianza</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, beatae? Debitis, quaerat</p>
+              <p className='font-bold text-xl lg:text-3xl'>Administra tus dispositivos <br /> Android con confianza</p>
+              <p>Ofrecemos una solución integral para la gestión de televisores Android, con tecnología de bloqueo remoto que garantiza el control y la seguridad necesaria.</p>
             </div>
 
             <button
@@ -229,7 +236,6 @@ export default function Home() {
 
                   <ul className='space-y-[-7px]'>
                     <li>- Económicos.</li>
-                    <li>- Pagos en línea.</li>
                   </ul>
                 </div>
               </article>
@@ -261,8 +267,8 @@ export default function Home() {
                   <h3 className='font-semibold text-[#2e3192] text-lg'>Facilidad de pagos.</h3>
 
                   <ul className='space-y-[-7px]'>
-                    <li>- Semanales.</li>
                     <li>- Quincenales.</li>
+                    <li>- Semanales.</li>
                     <li>- Mensuales.</li>
                   </ul>
                 </div>
@@ -307,7 +313,7 @@ export default function Home() {
                   <h3 className='font-semibold text-[#2e3192] text-lg'>Variedad.</h3>
 
                   <ul className='space-y-[-7px]'>
-                    <li>-  Marcas.</li>
+                    <li>- Marcas.</li>
                     <li>- Modelos.</li>
                   </ul>
                 </div>
@@ -319,38 +325,7 @@ export default function Home() {
         <section className='text-gray-800 my-10 w-[80%] m-auto'>
           <h2 className='text-center text-3xl font-bold mb-5'>Amplia gama de <br /> <span className='text-[#2e3192]'>Marcas</span></h2>
 
-          <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
-
-            <div className='relative flex items-end justify-end bg-red-400 px-3 py-2 bienvenida shadow-md shadow-black overflow-hidden'>
-              <p className='absolute top-5 -left-1 w-fit font-bold text-gray-100 text-xl bg-[#e66505] px-2 -skew-x-12'>
-                <span className='skew-x-12'>TCL</span>
-              </p>
-              <Image src="/images/tv2.png" alt="logo" width={100} height={100} />
-            </div>
-            <div className='relative flex items-end justify-end bg-red-400 px-3 py-2 bienvenida shadow-md shadow-black overflow-hidden'>
-              <p className='absolute top-5 -left-1 w-fit font-bold text-gray-100 text-xl bg-[#e66505] px-2 -skew-x-12'>
-                <span className='skew-x-12'>MOTOROLA</span>
-              </p>
-              <Image src="/images/tv2.png" alt="logo" width={100} height={100} />
-            </div>
-            <div className='relative flex items-end justify-end bg-red-400 px-3 py-2 bienvenida shadow-md shadow-black overflow-hidden'>
-              <p className='absolute top-5 -left-1 w-fit font-bold text-gray-100 text-xl bg-[#e66505] px-2 -skew-x-12'>
-                <span className='skew-x-12'>SONY</span>
-              </p>
-              <Image src="/images/tv2.png" alt="logo" width={100} height={100} />
-            </div>
-            <div className='relative flex items-end justify-end bg-red-400 px-3 py-2 bienvenida shadow-md shadow-black overflow-hidden'>
-              <p className='absolute top-5 -left-1 w-fit font-bold text-gray-100 text-xl bg-[#e66505] px-2 -skew-x-12'>
-                <span className='skew-x-12'>XIAOMI</span>
-              </p>
-              <Image src="/images/tv2.png" alt="logo" width={100} height={100} />
-            </div>
-            <div className='relative flex items-end justify-end bg-red-400 px-3 py-2 bienvenida shadow-md shadow-black overflow-hidden'>
-              <p className='absolute top-5 -left-1 w-fit font-bold text-gray-100 text-xl bg-[#e66505] px-2 -skew-x-12'>
-                <span className='skew-x-12'>PHILIPS</span>
-              </p>
-              <Image src="/images/tv2.png" alt="logo" width={100} height={100} />
-            </div> </div>
+          <BrandCarousel />
         </section>
       </MainLayout>
     </>

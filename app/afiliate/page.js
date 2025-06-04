@@ -24,7 +24,7 @@ export default function Afiliate() {
                     <div className='flex flex-col gap-2'>
                         <h2 className='text-[#e66505] font-semibold text-xl'>Brinda más facilidades</h2>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <p>Permite que tus clientes accedan a un televisor con cuotas mensuales cómodas, mientras tú mantienes el control total del dispositivo.</p>
                     </div>
 
                 </article>
@@ -39,7 +39,7 @@ export default function Afiliate() {
                     <div className='flex flex-col gap-2'>
                         <h2 className='text-[#e66505] font-semibold text-xl'>Incentiva tus compras</h2>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <p> Ofrece planes de crédito accesibles sin temor a impagos. Con nuestro sistema de bloqueo, tus clientes compran más y tú vendes con seguridad.</p>
                     </div>
 
                 </article>
@@ -55,7 +55,7 @@ export default function Afiliate() {
                     <div className='flex flex-col gap-2'>
                         <h2 className='text-[#e66505] font-semibold text-xl'>Incrementa tus clientes</h2>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veniam nesciunt, necessitatibus modi rerum cumque ipsum consectetur ipsa</p>
+                        <p>Atrae a más personas con facilidades de pago. Nuestra tecnología garantiza el control de cada televisor en caso de incumplimiento, lo que te permite ampliar tu cartera sin riesgos.</p>
                     </div>
 
                 </article>
