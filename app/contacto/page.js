@@ -13,7 +13,7 @@ export default function Contacto() {
                 </h2>
 
                 <p className='text-center text-gray-100 w-[80%] m-auto mt-5 shadow-text'>
-                    ¿Tienes dudas o quieres más información? Escríbenos y descubre cómo proteger tus ventas a crédito de forma sencilla y segura.
+                    ¿Tienes dudas o quieres más información? Escríbenos y descubre cómo proteger tu negocio de forma sencilla y segura.
                 </p>
 
                 <span className='block w-[80%] lg:w-[50%] m-auto h-[2px] bg-[#e66505] my-5'></span>

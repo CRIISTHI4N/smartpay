@@ -22,9 +22,9 @@ export default function Afiliate() {
                     </span>
 
                     <div className='flex flex-col gap-2'>
-                        <h2 className='text-[#e66505] font-semibold text-xl'>Brinda más facilidades</h2>
+                        <h2 className='text-[#e66505] font-semibold text-xl'>Aumenta tus ventas sin asumir riesgos</h2>
 
-                        <p>Permite que tus clientes accedan a un televisor con cuotas mensuales cómodas, mientras tú mantienes el control total del dispositivo.</p>
+                        <p>Afíliate a nuestra red y permite que tus clientes compren a crédito sin afectar tu liquidez. Sin riesgos para tu tienda.</p>
                     </div>
 
                 </article>
@@ -37,9 +37,9 @@ export default function Afiliate() {
 
 
                     <div className='flex flex-col gap-2'>
-                        <h2 className='text-[#e66505] font-semibold text-xl'>Incentiva tus compras</h2>
+                        <h2 className='text-[#e66505] font-semibold text-xl'>Vende más con cuotas accesibles</h2>
 
-                        <p> Ofrece planes de crédito accesibles sin temor a impagos. Con nuestro sistema de bloqueo, tus clientes compran más y tú vendes con seguridad.</p>
+                        <p>Facilita el acceso a televisores, celulares y más con pagos quincenales, semanales y mensuales, cómodos para tus clientes. Manten el control del dispositivo, asegurando el cumplimiento del pago.</p>
                     </div>
 
                 </article>
@@ -53,9 +53,57 @@ export default function Afiliate() {
 
 
                     <div className='flex flex-col gap-2'>
-                        <h2 className='text-[#e66505] font-semibold text-xl'>Incrementa tus clientes</h2>
+                        <h2 className='text-[#e66505] font-semibold text-xl'>Seguridad en cada venta</h2>
 
-                        <p>Atrae a más personas con facilidades de pago. Nuestra tecnología garantiza el control de cada televisor en caso de incumplimiento, lo que te permite ampliar tu cartera sin riesgos.</p>
+                        <p>Ofrece crédito sin miedo al impago. Nuestra tecnología permite bloquear remotamente los dispositivos en caso de incumplimiento.</p>
+                    </div>
+
+                </article>
+
+                <article className='flex flex-col items-center justify-center gap-2 text-center '>
+
+                    <span className='bg-[#e66505] p-5 -skew-x-12 relative before:content-[""] before:absolute before:right-[-8px] before:top-0 before:w-1 before:h-full before:bg-[#e66505]'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-list-check text-gray-100 skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3.5 5.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 11.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 17.5l1.5 1.5l2.5 -2.5" /><path d="M11 6l9 0" /><path d="M11 12l9 0" /><path d="M11 18l9 0" /></svg>
+                    </span>
+
+
+
+                    <div className='flex flex-col gap-2'>
+                        <h2 className='text-[#e66505] font-semibold text-xl'>Atrae más clientes con facilidades</h2>
+
+                        <p>Amplía tu cartera de clientes con planes de pago flexibles. Más personas se animan a comprar cuando saben que pueden pagar en cuotas. Tú aumentas tus ventas, nosotros gestionamos el riesgo.</p>
+                    </div>
+
+                </article>
+
+                <article className='flex flex-col items-center justify-center gap-2 text-center '>
+
+                    <span className='bg-[#e66505] p-5 -skew-x-12 relative before:content-[""] before:absolute before:right-[-8px] before:top-0 before:w-1 before:h-full before:bg-[#e66505]'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-list-check text-gray-100 skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3.5 5.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 11.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 17.5l1.5 1.5l2.5 -2.5" /><path d="M11 6l9 0" /><path d="M11 12l9 0" /><path d="M11 18l9 0" /></svg>
+                    </span>
+
+
+
+                    <div className='flex flex-col gap-2'>
+                        <h2 className='text-[#e66505] font-semibold text-xl'>Cobro garantizado, sin esfuerzo</h2>
+
+                        <p>Te olvidas del seguimiento de cobros. Nosotros gestionamos los pagos mensuales del cliente. Tú cobras de inmediato, sin preocuparte por morosidad.</p>
+                    </div>
+
+                </article>
+
+                <article className='flex flex-col items-center justify-center gap-2 text-center '>
+
+                    <span className='bg-[#e66505] p-5 -skew-x-12 relative before:content-[""] before:absolute before:right-[-8px] before:top-0 before:w-1 before:h-full before:bg-[#e66505]'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-list-check text-gray-100 skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3.5 5.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 11.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 17.5l1.5 1.5l2.5 -2.5" /><path d="M11 6l9 0" /><path d="M11 12l9 0" /><path d="M11 18l9 0" /></svg>
+                    </span>
+
+
+
+                    <div className='flex flex-col gap-2'>
+                        <h2 className='text-[#e66505] font-semibold text-xl'>Fortalece tu tienda con el respaldo de una empresa sólida</h2>
+
+                        <p>Tus clientes confían más cuando una empresa formal respalda el crédito. Tú te conviertes en una tienda aliada con respaldo tecnológico y financiero.</p>
                     </div>
 
                 </article>
