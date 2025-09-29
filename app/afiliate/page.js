@@ -1,5 +1,6 @@
 import MainLayout from '@/components/MainLayout'
 import "../../styles/styles.css"
+import Link from 'next/link'
 
 export default function Afiliate() {
     return (
@@ -71,12 +72,12 @@ export default function Afiliate() {
                     <div className='flex flex-col gap-2'>
                         <h2 className='text-[#e66505] font-semibold text-xl'>Atrae más clientes con facilidades</h2>
 
-                        <p>Amplía tu cartera de clientes con planes de pago flexibles. Más personas se animan a comprar cuando saben que pueden pagar en cuotas. Tú aumentas tus ventas, nosotros gestionamos el riesgo.</p>
+                        <p>Amplía tu cartera de clientes con planes de pago flexibles. Más personas se animan a comprar cuando saben que pueden pagar en cuotas. Tú aumentas tus ventas.</p>
                     </div>
 
                 </article>
 
-                <article className='flex flex-col items-center justify-center gap-2 text-center '>
+                {/* <article className='flex flex-col items-center justify-center gap-2 text-center '>
 
                     <span className='bg-[#e66505] p-5 -skew-x-12 relative before:content-[""] before:absolute before:right-[-8px] before:top-0 before:w-1 before:h-full before:bg-[#e66505]'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-list-check text-gray-100 skew-x-12"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3.5 5.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 11.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 17.5l1.5 1.5l2.5 -2.5" /><path d="M11 6l9 0" /><path d="M11 12l9 0" /><path d="M11 18l9 0" /></svg>
@@ -90,7 +91,7 @@ export default function Afiliate() {
                         <p>Te olvidas del seguimiento de cobros. Nosotros gestionamos los pagos mensuales del cliente. Tú cobras de inmediato, sin preocuparte por morosidad.</p>
                     </div>
 
-                </article>
+                </article> */}
 
                 <article className='flex flex-col items-center justify-center gap-2 text-center '>
 
@@ -110,7 +111,22 @@ export default function Afiliate() {
 
             </section>
 
-            <section className='w-full h-72 bg-[#131114] afiliacion flex items-center justify-center'>
+            <section className='w-full h-80 bg-[#131114] banner_dos flex items-center justify-center'>
+                <div className='flex flex-col gap-7 lg:flex-row items-center justify-between w-[80%] m-auto'>
+                    <div>
+                        <p className="text-3xl font-bold text-gray-100"><span className="text-[#ea332a]">LOCK</span>PLAY</p>
+                        <p className='font-bold text-xl lg:text-2xl'>Adminsitra tus dispositivos.</p>
+                        <p>Elimina riesgos y garantiza la seguridad operativa de tus dispositivos.</p>
+                    </div>
+
+                    <Link
+                        href='https://lockplay.org/'
+                        target="_blank"
+                        className='bg-[#e66505] w-fit py-2 px-4 -skew-x-12 hover:bg-gray-100 hover:text-gray-800 transition-colors relative before:content-[""] before:absolute before:right-[-8px] before:top-0 before:w-1 before:h-full before:bg-[#e66505]'
+                    >
+                        <span className='text-gray-800 font-bold -skew-x-12 text-nowrap'>Visitar</span>
+                    </Link>
+                </div>
             </section>
 
         </MainLayout>

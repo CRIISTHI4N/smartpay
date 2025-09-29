@@ -2,6 +2,7 @@ import MainLayout from '@/components/MainLayout'
 import Image from 'next/image'
 import "../styles/styles.css"
 import BrandCarousel from '../components/BrandCarousel'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -43,33 +44,33 @@ export default function Home() {
         <section className="w-full h-screen bienvenida relative bg-gray-800">
 
           <div className="absolute top-[50%] -translate-y-[50%] left-[9%] right-[9%] md:top-[15%] md:-translate-y-0 lg:top-[29%]">
-            <p className="text-xl text-[#e66505] font-bold  lg:text-xl ">Tu mejor opción para</p>
-            <p
-              className="text-3xl text-gray-100 font-bold  lg:text-5xl">
-              Gestión <span className='text-[#e66505]'>Inteligente</span> <br /> para Google TV con <br /> <span className='text-[#e66505]'>Smart Pay</span>
+            <p className="text-xl text-[#e66505] font-bold">Potencia</p>
+            <p className="text-3xl text-gray-100 font-bold lg:text-5xl">
+              Tu <span className='text-[#e66505]'>Negocio</span> sin limites.
             </p>
+            <p className="text-3xl text-gray-100 font-bold lg:text-5xl uppercase">Ofrece televisores</p>
 
-            <p className='mt-10'>
-              Ofrece una plataforma avanzada para la gestión centralizada de
-            </p>
-            <p>Android TV, garantizando seguridad, eficiencia y actualizaciones</p>
+            <div className="flex items-end gap-2">
+              <p className="text-3xl text-gray-100 font-bold lg:text-5xl">
+                <span className='text-[#e66505] uppercase'>A crédito</span>
+              </p>
+              <p className="text-xl text-gray-100 font-bold">con total facilidad</p>
+            </div>
+            
 
             <div className='mt-5 flex items-center gap-1'>
-              <a
-                href="#footer"
+              <Link
+                href={"/contacto"}
                 className="block bg-[#e66505] w-fit py-2 px-4 -skew-x-12 hover:bg-gray-100 hover:text-gray-800 transition-colors"
               >
                 <span className='text-gray-800 font-bold -skew-x-12'>Contáctanos</span>
-              </a>
+              </Link>
 
               <span className='w-1 h-10 -skew-x-12 bg-[#e66505]'></span>
 
             </div>
 
           </div>
-
-          {/* <div className="absolute hidden w-[300px] left-[50%] md:block -translate-x-[50%] top-[63%] md:w-[350px] md:top-[55%] lg:top-
-          [35%] lg:left-[55%] lg:translate-x-0 lg:w-[400px] xl:top-[50%] xl:-translate-y-[50%] xl:w-[500px] z-10"></div> */}
 
           <div className="absolute hidden w-[300px] left-[50%] md:block -translate-x-[50%] top-[63%] md:w-[350px] md:top-[55%] lg:top-[35%] lg:left-[55%] lg:translate-x-0 lg:w-[400px] xl:top-[50%] xl:-translate-y-[50%] xl:w-[500px] z-10 fade-in-slide">
             <Image
@@ -93,9 +94,9 @@ export default function Home() {
 
 
             <div className='flex flex-col gap-2'>
-              <h2 className='text-[#e66505] font-semibold text-xl'>Configuración sin complicaciones</h2>
+              <h2 className='text-[#e66505] font-semibold text-xl'>Sin complicaciones</h2>
 
-              <p>Registra y configura televisores Google TV en minutos. Sin configuraciones complejas, ni procesos tediosos.</p>
+              <p>Aprueba crédito sin buró a tus clientes</p>
             </div>
 
           </article>
@@ -108,9 +109,9 @@ export default function Home() {
 
 
             <div className='flex flex-col gap-2'>
-              <h2 className='text-[#e66505] font-semibold text-xl'>Gestión centralizada</h2>
+              <h2 className='text-[#e66505] font-semibold text-xl'>Beneficio</h2>
 
-              <p>Controla cada acción desde un panel único e intuitivo.</p>
+              <p>Incrementa tus ganancias</p>
             </div>
 
           </article>
@@ -124,9 +125,9 @@ export default function Home() {
 
 
             <div className='flex flex-col gap-2'>
-              <h2 className='text-[#e66505] font-semibold text-xl'>Siempre actualizado</h2>
+              <h2 className='text-[#e66505] font-semibold text-xl'>Sin trámites</h2>
 
-              <p>Nuestra plataforma evoluciona constantemente para brindarte una experiencia más segura, eficiente y confiable.</p>
+              <p>Sin papeleos, rápido y seguro</p>
             </div>
 
           </article>
@@ -141,7 +142,7 @@ export default function Home() {
             <div className='flex flex-col gap-2'>
               <h2 className='text-[#e66505] font-semibold text-xl'>La seguridad primero</h2>
 
-              <p>Bloquea el acceso no autorizado y controla el estado de cada dispositivos en tiempo real.</p>
+              <p>Sin riesgo</p>
             </div>
 
           </article>
@@ -151,8 +152,8 @@ export default function Home() {
         <section className='w-full h-72 bg-[#131114] banner_dos flex items-center justify-center'>
           <div className='flex flex-col gap-7 lg:flex-row items-center justify-between w-[80%] m-auto'>
             <div>
-              <p className='font-bold text-xl lg:text-3xl'>Administra tus dispositivos <br /> Android con confianza</p>
-              <p>Ofrecemos una solución integral para la gestión de televisores Android, con tecnología de bloqueo remoto que garantiza el control y la seguridad necesaria.</p>
+              <p className='font-bold text-xl lg:text-3xl'>La mejor solución <br /> para tu negocio</p>
+              <p>Ofrece televisores a crédito con total tranquilidad. Nuestra plataforma te da una solución integral para la gestión de dispositivos Android, asegurando el control y la seguridad que necesitas para tu negocio. Expande tus ventas con confianza.</p>
             </div>
 
             <button
@@ -164,9 +165,9 @@ export default function Home() {
         </section>
 
         <section className='text-gray-800 my-10 w-[80%] m-auto'>
-          <h2 className='text-center text-3xl font-bold mb-5'>¿Por qué <span className='text-[#2e3192]'>Smart Pay</span> para  <br /> la gestión de <span className='text-[#2e3192]'>Google TV</span>?</h2>
+          <h2 className='text-center text-3xl font-bold mb-5'>¿Por qué <span className='text-[#2e3192]'>Smart Pay</span>?</h2>
 
-          <p className='text-center'>Control sin esfuerzo, actualizaciones fluidas y seguridad total: SmartPay hace que <br /> la administración de televisores Android sea más inteligente que nunca.</p>
+          <p className='text-center'>De la sala de ventas al hogar de tus clientes, SmartPay te da el control para <br /> ofrecer televisores a crédito de forma segura, sencilla y sin complicaciones.</p>
 
           <span className='block w-[80%] lg:w-[50%] m-auto h-[2px] bg-[#e66505] mt-5'></span>
 
@@ -270,6 +271,7 @@ export default function Home() {
                     <li>- Quincenales.</li>
                     <li>- Semanales.</li>
                     <li>- Mensuales.</li>
+                    <li>- Cuotas pequeñitas.</li>
                   </ul>
                 </div>
               </article>

@@ -64,28 +64,19 @@ export default function NavBar() {
                     </li>
                     <li>
                         <Link
-                            href="/sobre-nosotros"
-                            className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/sobre-nosotros' ? 'bg-[#2e3192]' : ''}`}
-                        >
-                            <span className='block skew-x-12 leading-none'>Sobre Nosotros</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            href="/beneficio"
-                            className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/beneficio' ? 'bg-[#2e3192]' : ''}`}
-                        >
-                            <span className='block skew-x-12 leading-none'>Beneficio</span>
-
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
                             href="/afiliate"
                             className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/afiliate' ? 'bg-[#2e3192]' : ''}`}
                         >
                             <span className='block skew-x-12 leading-none'>Afiliate</span>
 
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/sobre-nosotros"
+                            className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/sobre-nosotros' ? 'bg-[#2e3192]' : ''}`}
+                        >
+                            <span className='block skew-x-12 leading-none'>Sobre Nosotros</span>
                         </Link>
                     </li>
                     <li>
@@ -119,7 +110,7 @@ export default function NavBar() {
             }
 
             <Link
-                href="https://tv.lockplay.org/gin"
+                href="https://lockplay.org/login"
                 target="_blank"
                 className="items-center gap-1 py-2 px-3 font-semibold bg-[#2e3192] transition-colors text-gray-100 hidden lg:flex text-nowrap -skew-x-12"
             >
@@ -139,28 +130,19 @@ export default function NavBar() {
                     </li>
                     <li>
                         <Link
-                            href="/sobre-nosotros"
-                            className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/sobre-nosotros' ? 'bg-[#2e3192]' : ''}`}
-                        >
-                            <span className='block skew-x-12 leading-none'>Sobre Nosotros</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            href="/beneficio"
-                            className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/beneficio' ? 'bg-[#2e3192]' : ''}`}
-                        >
-                            <span className='block skew-x-12 leading-none'>Beneficio</span>
-
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
                             href="/afiliate"
                             className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/afiliate' ? 'bg-[#2e3192]' : ''}`}
                         >
                             <span className='block skew-x-12 leading-none'>Afiliate</span>
 
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/sobre-nosotros"
+                            className={`block leading-none -skew-x-12 hover:bg-[#2e3192] transition-colors py-2 px-3 font-semibold ${pathname === '/sobre-nosotros' ? 'bg-[#2e3192]' : ''}`}
+                        >
+                            <span className='block skew-x-12 leading-none'>Sobre Nosotros</span>
                         </Link>
                     </li>
                     <li>
@@ -174,7 +156,7 @@ export default function NavBar() {
                     </li>
                     <li>
                         <Link
-                            href="https://tv.lockplay.org/"
+                            href="https://lockplay.org/login"
                             target="_blank"
                             className="items-center gap-1 py-2 px-3 font-semibold bg-[#2e3192] transition-colors text-gray-100 flex text-nowrap -skew-x-12"
                         >

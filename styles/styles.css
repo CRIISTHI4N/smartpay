@@ -26,13 +26,6 @@
     background-repeat: no-repeat;
 }
 
-.afiliacion {
-    background-image: url("/images/afiliacion.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .shadow-text {
     text-shadow: 1px 1px 4px black;
 }
